@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> TestApp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <!-- <p *ngIf="currentLocation.latitude != -99">
+      {{currentLocation.latitude}}, {{currentLocation.longitude}}
+    </p>
+    <p>{{addressString}}</p> -->
+    <div>
+      <ion-input
+        type="text"
+        placeholder="State"
+        class="ion-input"
+        [(ngModel)]="administrativeArea"
+      ></ion-input>
+      <ion-input
+        type="text"
+        placeholder="Pincode"
+        class="ion-input"
+        [(ngModel)]="pincode"
+      ></ion-input>
+    </div>
+    <ion-button (click)="onClickAutoFill()">Auto Fill</ion-button>
+  </div>
+</ion-content>

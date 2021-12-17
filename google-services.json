@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795922386129",
+    "project_id": "ionic-angular-test-185fb",
+    "storage_bucket": "ionic-angular-test-185fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795922386129:android:b7f513df2b52b2d9fa49f0",
+        "android_client_info": {
+          "package_name": "io.rupam.testappionic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795922386129-a2qv0l62ide3tc25vp5i2if1hvm7f711.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfW_OkYB6TcQhJ-6TMwEEYA3nZYlbH-6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795922386129-a2qv0l62ide3tc25vp5i2if1hvm7f711.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
