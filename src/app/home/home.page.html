@@ -6,16 +6,24 @@
 
 <ion-content [fullscreen]="true">
   <div class="container">
-    <!-- <p *ngIf="currentLocation.latitude != -99">
-      {{currentLocation.latitude}}, {{currentLocation.longitude}}
-    </p>
-    <p>{{addressString}}</p> -->
     <div>
       <ion-input
         type="text"
         placeholder="State"
         class="ion-input"
         [(ngModel)]="administrativeArea"
+      ></ion-input>
+      <ion-input
+        type="text"
+        placeholder="sub-locality"
+        class="ion-input"
+        [(ngModel)]="subLocality"
+      ></ion-input>
+      <ion-input
+        type="text"
+        placeholder="street"
+        class="ion-input"
+        [(ngModel)]="street"
       ></ion-input>
       <ion-input
         type="text"
